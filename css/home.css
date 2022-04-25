@@ -1,0 +1,34 @@
+.intro{
+  position: absolute;
+  left: 50%;
+  transform: translate(-50%);
+}
+button{
+    height: 50px;
+    width: auto;
+    border: none;
+    border-radius: 5px;
+    background-color: white;
+}
+button:hover{
+    cursor: pointer;
+    animation: changebgbtn 4s;
+}
+
+@keyframes changebgbtn {
+    0% {
+      background-color: #fff;
+    }
+    25% {
+      background-color: #ffba9f;
+    }
+    50% {
+      background-color: #ff5050;
+    }
+    75%{
+        background-color: #ffba9f;
+    }
+    100%{
+        background-color: #fff;
+    }
+}
